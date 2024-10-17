@@ -1,0 +1,16 @@
+.main-menu{
+    @apply pt-[41px] absolute w-full hidden lg:block 
+}
+.menu-row{
+    @apply flex justify-between
+}
+.nav-menu ul{
+    @apply flex gap-[25px]
+}
+.nav-menu ul li a{
+    @apply text-2xl font-medium font-Montserrat text-[rgba(255,255,255,0.50)] 
+}
+.menu-button a{
+   @apply py-5 px-[26px] bg-[rgba(196,196,196,0.10)] rounded-[20px] text-2xl font-bold font-Montserrat text-brandcolor
+   shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]
+}
