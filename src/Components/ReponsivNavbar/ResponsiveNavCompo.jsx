@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './ResponsiveNavCompo.css'
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { MdCancel } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import { BiAlignRight } from 'react-icons/bi';
 
 const ResponsiveNavCompo = () => {
   //====== state part start ============== 
@@ -13,7 +13,7 @@ const ResponsiveNavCompo = () => {
             <div className="responsive-logo">
            <img src=" public/images/logo.png" alt="img" />
            <div className=' Resslidemenu'>
-            <HiMiniBars3BottomRight onClick={()=> setShow(!show)}  className="menu-icon" />
+            <BiAlignRight  onClick={()=> setShow(!show)}  className="menu-icon" />
            
            </div>
            {

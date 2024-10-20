@@ -13,7 +13,7 @@
 
  .slide-menu{
     @apply w-full p-5 rounded-[10px] bg-brandcolor absolute top-0 right-0 ;
-    animation: popmenu linear 4s;
+    animation: popmenu linear 1s;
 
  }
  @keyframes popmenu {
